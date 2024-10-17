@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --azul: #3a68b7;
+}
+
+html{
+    font-family: 'Roboto';
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--azul);
+}
+
+form{
+    width: 80%;
+    max-width: 52rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: -5px -2px 10px -5px black;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    margin-top: 2rem;
+}
+
+legend{
+    font-size: 3rem;
+    color: #3a68b7;
+    padding: 0;
+    padding-top: 1.8rem;
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.795);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.entrada{
+    border: 2px solid transparent;
+    border-bottom-color: var(--azul);
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: padding-left .2s ease;
+}
+
+.entrada:focus{
+    border: 2px solid var(--azul);
+    padding-left: 1rem;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn-1{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: .8rem 1.3rem;
+    border: 1px solid transparent;
+    margin-top: 1.2rem;
+    transition: background-color .5s ease-in-out, color .5s ease-in, border .5s ease;
+}
+
+.btn-1:hover{
+    background-color: beige;
+    color: black;
+    border: 1px solid var(--azul);
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.btn-p{
+    background-color: var(--azul);
+    color: white;
+    border: 1px solid transparent;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.btn-p:hover{
+    background-color:beige;
+    color: black;
+    border: 1px solid var(--azul);
+}
+
+.esq{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.esq span{
+    color: black;
+    text-decoration: none;
+}

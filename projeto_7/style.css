@@ -1,0 +1,200 @@
+:root{
+    --primary-color: #FED001;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+p, a {
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+nav a {
+    color: inherit;
+    transition: color 1s ease, background-color 1s ease, border 1s ease;
+}
+
+nav a:hover {
+    color: black;
+    background-color: var(--primary-color);
+    outline: 2px solid #e3f25a;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 2rem;
+    color: #2a2a2a;
+    text-decoration: none;
+    padding: 1.6rem 4.5rem;
+    display: inline-block;
+    border: 2px solid #23231f;
+    transition: color 1s ease, background-color 1s ease, border 1s ease-out;
+}
+
+.btn:hover{
+    color: var(--primary-color);
+    background-color: #303030;
+    outline: 2px solid var(--primary-color);
+}
+
+.wrapperContainer{
+    padding-top: 1px;
+}
+
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.section_title{
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.section_btn{
+    margin: 5.5rem 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a {
+    padding: .7em 1.2em;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.wrapperContainer-hero{
+    background-image: linear-gradient(rgb(172, 244, 247), yellow);
+
+}
+
+.wrapperContainer-fixed{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.header_title{
+    margin-bottom: 5rem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursosContainer{
+    display: flex;
+    text-align: left;
+    gap: 2.5rem;
+}
+
+.curso_card{
+    flex: 1;
+}
+
+.curso_card img{
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3{
+    font-size: 2.4rem;
+}
+
+.curso_card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content{
+    padding: 1rem 1.3rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.escola{
+    display: flex;
+    gap: 8rem;
+    padding-top: 6rem;
+}
+
+.escola h2{
+    font-size: 3.5rem;
+}
+
+.escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+ 
+.contatos_adress{
+    text-align: right;
+    font: 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+footer{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5rem;
+}
+
+.auto{
+    padding-top: 5rem;
+}

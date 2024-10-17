@@ -1,0 +1,76 @@
+html{
+    background-color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form{
+    width: 90%;
+    min-width: 28em;
+    max-width: 35em;
+    background-color: #0e1010;
+    padding: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px white;
+}
+
+fieldset{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+label, input, textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+input, textarea{
+    background-color: rgba(0,0,0,.3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: 1em;
+    margin: .5em 0 2.5em;
+    outline: 0;
+}
+
+input:invalid:focus, textarea:invalid:focus{
+    border-bottom: 1px solid #ff000d;
+}
+
+input:valid:focus, textarea:valid:focus{
+    border-bottom: 1px solid #4ef135;
+}
+
+input:focus, textarea:focus{
+    border-bottom: 2px solid gray;
+    background-color: rgb(41, 41, 41);
+}
+
+legend{
+    padding: .5em;
+    text-align: center;
+    font-weight: bold;
+    color: beige;
+    font-size: 1.5em;
+}
+
+.btn{
+    background-color: #2a2727;
+    color: white;
+    cursor: pointer;
+    padding: .8em;
+    font-size: 1.2em;
+    border: none;
+}

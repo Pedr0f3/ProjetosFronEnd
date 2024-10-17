@@ -1,0 +1,68 @@
+body{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+.container .contatos{
+    background-image: url(imagens/wolves-1341881_1280.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex-basis:  280px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: aliceblue;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contatos .imagem{
+    margin-top: 100px;
+}     
+.imagem img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.contatos .info{
+    margin-top: 0;
+    flex-grow: 1;
+}
+
+.nome{
+    font-size: 24px;
+    color: #385555;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.email{
+    margin: 5px;
+    color: #aaa;
+}
+
+.simb{
+    margin: 0;
+    background-color: #e4e2e2;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    padding: 12px;
+    align-items: center;
+}

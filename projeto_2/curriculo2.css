@@ -1,0 +1,90 @@
+body{
+    background-color:darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+h1{
+    background-color: #6495ed;
+    padding: 7px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(25, 25, 81);
+    font-size: 35px;
+
+}
+
+p{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    margin-top: 40px;
+    background-color: rgb(136, 143, 149);
+    font-size: 30px;
+    padding: 7px;
+    color: rgb(43, 43, 81);
+    border-bottom:5px groove rgb(95, 95, 141);
+}
+
+.h1d{
+    text-align: center;
+    margin-top: 0;
+    background-color: #8cb1f6;
+
+}
+
+.h2d{
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.h3d{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+a{
+    color: rgb(0, 0, 140);
+    text-decoration: none;
+}
+
+.h4d{
+    margin-top: 1px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.h5d{
+    font-size: 16px;
+    text-align: left;
+}
+
+.ext{
+    text-align: right;
+}
+
+.ext li{
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ext a{
+    background-color: #8896d1;
+    padding: 16px;
+    display: block;
+}
+
+.ext a:hover{
+    background-color: #525d89;
+    padding: 15px;
+}

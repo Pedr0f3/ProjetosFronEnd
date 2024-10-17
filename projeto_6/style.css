@@ -1,0 +1,134 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    width: 100%;
+    margin: auto;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 8rem;
+    background-color: #162028;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+}
+
+.back{
+
+    width: 100%;
+    margin: auto;
+}
+
+.pagina1--titulo{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 4.5rem;
+    margin: auto 15rem;
+    flex: 1;
+}
+
+.header--nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header--nav li{
+    display: inline-block;
+    margin: 0 2rem 0;
+    padding: 2.5rem;
+}
+
+.header--nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    transition: color .5s ease-in-out;
+}
+
+.header--nav a:hover{
+    color: aliceblue;
+}
+
+.pagina2{
+    min-height: 100vh;
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    padding: 5rem;
+}
+
+.pagina2--container{
+    display: flex;
+    flex-direction: row;
+    margin: 9rem;
+    justify-content: space-evenly;
+}
+
+.pagina2--container_imagens__titulo{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 2em;
+}
+
+.pagina2--container_imagens__p{
+    font-family: cursive;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.pagina2--titulo{
+    font-size: 4em;
+    color: #252525;
+}
+
+.pagina2--texto{
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: cursive;
+    color: #555;
+    width: 90ch;
+    margin: auto;
+}
+
+.pagina3{
+    background-color: #003d52;
+    padding: 10rem;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: aliceblue;
+}
+
+.pagina3__titulo{
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.pagina3__p{
+    width: 50%;
+    line-height: 3rem;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+
+footer{
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: 1.5em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
